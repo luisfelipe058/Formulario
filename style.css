@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    /* background-color: rgb(51, 99, 65); */
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/18/19/25/pc-1207886_640.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* text-decoration: underline; */
+    font-size: 400%;
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    color: white;
+}
+
+
+form {
+    background-color: rgba(11, 135, 252, 0.486);
+    padding: 25px;
+    border-radius: 30px;
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 5px 5px 15px black;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+textarea {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100% - 45px);
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(98, 192, 4);
+    color: aliceblue;
+    border: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.small-input {
+    width: auto;
+    display: inline-block;
+}
+
+.inline-label {
+    display: inline-block;
+    margin-right: 10px;
+}
